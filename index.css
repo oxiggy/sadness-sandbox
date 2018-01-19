@@ -1,0 +1,229 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.b-slide {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./images/header_background.jpg);
+   background-size: cover; 
+}
+.b-slide__header {
+  text-align: center;
+  color: white;
+
+  
+}
+.b-slide__header > h1 {
+  margin: 0;
+  font-size: 8vh;
+  line-height: 10vh;
+  font-weight: normal;
+}
+.b-slide__header > p {
+  margin: 0;
+  font-size: 3vh;
+}
+
+.b-promoslide {
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh 15vw;
+}
+.b-promoslide > img {
+  width: 300px;
+  display: block;
+
+}
+.b-promo {
+  flex: 1;
+  text-align: center;
+  min-width: 300px;
+  padding-left: 5vh; 
+}
+.b-promo__title {
+  margin: 0;
+  padding-top: 5vh;
+  font-weight: bold;
+  font-size: 5vh;
+}
+.b-promo__legend {
+  margin: 0;
+  font-size: 1.7vh;
+}
+.b-promo__decor {
+  margin: 1vh auto 1vh;
+  width: 5vw;
+  height: 4px;
+  border: 0;
+  border-radius: 2px;
+  background: #540c18;
+}
+.b-promo__text {
+  margin: 0;
+  line-height: 150%;
+  font-size: 2.3vh;
+}
+
+.b-action {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  padding: 5vh 5vw;
+  color: white;
+  background: #540c18;
+}
+.b-action__text {
+  padding-right: 8vw;
+}
+.b-action__text > h4 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 5vh;
+  line-height: 8vh;
+}
+.b-action__text > p {
+  margin: 0;
+  font-size: 2vh;
+}
+.b-action__button {
+  display: block;
+  border: 0.3vh solid white;
+  color: white;
+  background: transparent;
+  font-family: inherit; 
+  margin: auto 0;
+  padding: 0 1vw;
+  line-height: 9vh;
+  font-size: 4vh;
+}
+
+.b-card {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  height: 60vh;
+}
+.b-card__image {
+  flex: 1;
+  display: block; 
+  max-width: 50%; 
+  height: 100%;
+  object-fit: cover;
+}
+.b-card__slide {
+  flex: 1;
+  text-align: center;
+ // min-width: 300px;
+  //padding-left: 5vh;
+}
+.b-card__slide > h3 {
+  margin: 0;
+  padding-top: 4vh;
+  font-weight: bold;
+  line-height: 5vh;
+  font-size: 4vh;
+}
+.b-card__slide > p {
+  font-size: 2vh;
+}
+
+.b-contactform {
+  box-sizing: border-box;
+  height: 80vh;
+  padding: 10vh 25vw;
+  color: white; 
+  background: #540c18;
+}
+.b-contactform > h4 {
+  margin: 0;
+  padding-top: 10vh;
+  text-align: center;
+  font-size: 5vh;
+  line-height: 6.5vh;
+}
+.b-contactform > p {
+   text-align: center;
+   margin: 0;
+   padding-bottom: 4vh;
+   font-size: 2.5vh;
+} 
+
+.b-fieldset {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8vh;
+  //flex-wrap: wrap;
+  //justify-content: center;
+  //align-items: center;
+}
+.b-fieldset__field {}
+.b-field {
+  flex: 1;
+  display: flex;
+}
+.b-field__label {
+  font-size: 3vh;
+  line-height: 4vh;
+}
+.b-field__input-container {
+  padding-left: 0.5vw;
+  flex: 1;
+}
+.b-field__input {
+  background: transparent;
+  border: 3px;
+  width: 100%;
+  color: inherit;
+}
+.bb-field__input-decor {
+  width: inherit;
+  height: 1px;
+  border: 0;
+  background: white;
+  margin-top: -2px;
+}
+.b-contactform__button {
+  display: block;
+  border: 0.3vh solid white;
+  color: white;
+  background: transparent;
+  margin: 0 auto;
+  font-family: inherit;
+
+  padding: 0 4vw;
+  line-height: 9vh;
+  font-size: 4vh;
+}
+
+.b-footer {
+  display: flex; 
+  height: 20vh;
+  background: black;
+}
+.b-footer__logo {
+  height: 15vh;
+  padding-top: 3vh;
+  padding-left: 3vh;
+  
+}
+.b-footer__als {
+  display: block;
+  padding-top: 13vh;
+  font-size: 2.5vh;
+  color: #540c18; 
+}
